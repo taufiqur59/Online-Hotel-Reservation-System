@@ -1,0 +1,93 @@
+ @charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#DCDCDC;
+}
+ 
+#wrap{
+	width:650px;
+	margin:auto;
+	background-color: #FF9;
+	padding:10px;
+}
+ 
+#loghead {
+	background:#FFF;
+	font-size: 30px;
+	text-align: center;
+	font-family: cursive;
+	margin: 0px;
+	padding:0;
+	opacity: .9;
+}
+#headldiv {
+	padding-top: 12px;
+	padding-left: 0px;
+}
+#logdiv {
+	margin: auto;
+	height:60px;
+	border-radius: 10px;
+	font-family: raleway;
+	border: 2px solid #ccc;
+	margin-top: 10px;
+	opacity: .9;
+	background:#39C;
+}
+
+#logheadline {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 22px;
+	font-weight: lighter;
+	text-align: center;
+	margin-bottom:5px;
+	margin-top:15px;
+
+}
+
+#goback{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+	text-align:center;
+	float:right;
+	margin-right:20px;
+}
+#logformhead {
+	color: #309;
+	width: 40%;;
+	padding-bottom:20px;
+ 
+}
+#logrest {
+	padding: 1px 25px;
+	width: 92.2%;
+	background-color: #ffffff;
+	border-bottom:1px solid #DCDCDC;
+}
+
+ 
+input[type=text], input[type=password], input[type=email], input[type=date] {
+	width: 80%;
+	padding: 6px;
+	margin-top: 6px;
+	border: 1px solid #ccc;
+	padding-left: 5px;
+	font-size: 16px;
+	font-family: raleway;
+}
+input[type=submit] {
+	
+	background-color: #FFBC00;
+	color: #fff;
+	border: 2px solid #ffffff;
+	padding: 10px 15px 10px 15px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 7px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+	
+}
+input[type=submit]:hover {
+	background-color: #00008B;
+}

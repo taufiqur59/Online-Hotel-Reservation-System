@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0px;
+	margin:0px;
+	overflow:scroll;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	   /*background:url(../image/image.jpeg);*/
+}
+
+#nav{
+	background-color:#222;
+}
+#wrap{
+	width:960px;
+	margin:0 auto;
+	text-align:left;
+	
+}
+#nav ul{
+	padding-left:273px;
+	list-style-type:none;
+	margin:0px;
+	position:relative;
+	
+}
+#nav ul li{
+	display:inline-block;
+	 border-left:1px solid #333;
+	 border-right:1px solid #333;
+	
+}
+#nav ul li:hover{
+	background-color:#333;
+}
+ 
+#nav ul li a,visited{
+	
+	color:#ccc;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+}
+#nav ul li a:hover{
+	color:#ccc;
+	text-decoration:none;
+}
+
+ 

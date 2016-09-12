@@ -1,0 +1,107 @@
+ @charset "utf-8";
+/* CSS Document */
+body{
+	 background-color:#DCDCDC;
+ }
+#logincontent{
+	width:45%;
+	margin:auto;
+	 
+	 
+ 
+	
+}
+#loghead{
+	color:#309;
+	font-size: 30px;
+	text-align: center;
+	font-family: cursive;
+	margin:0px;
+	opacity:.9;
+	
+}
+#headldiv{
+	width:auto;
+	padding-top:12px;
+	padding-left:14px;
+	
+}
+#logdiv{
+	width:62.5%;
+	margin:auto;
+    border-radius:10px;
+    font-family:raleway;
+    border:2px solid #ccc;
+    background-color:#FFF;
+	padding-bottom:60px;
+    margin-top:10px;
+	opacity:.9;
+	
+}
+
+#logheadline{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	font-weight:lighter;
+	text-align:center;
+	margin:10px;
+	
+}
+#logformhead{
+	padding-bottom:20px;
+    border-bottom:1px solid #DCDCDC;
+}
+#logrest{
+	padding:1px 25px;
+	width:auto;
+}
+ul{
+	margin:2px;
+	padding:0px;
+ 
+}
+ul li{
+	text-decoration:none;
+	list-style:none;
+	margin-bottom:10px;
+
+}
+.click {
+
+padding:10px;
+margin-top:5px;
+color:#fff;
+background-color:#DCDCDC;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+text-align:center;
+font-family:raleway;
+cursor:pointer;
+border-radius:7px;
+margin-bottom:15px;
+}
+input[type=submit] {
+width:100%;
+padding:10px;
+margin-top:5px;
+color:#fff;
+background-color:#DCDCDC;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+text-align:center;
+font-family:raleway;
+cursor:pointer;
+border-radius:7px;
+margin-bottom:15px;
+}
+a {
+	text-decoration:none;
+}
+.click:hover{
+	background-color:#00008B;
+}
+ input[type=submit]:hover {
+	 background-color:#00008B;
+ }

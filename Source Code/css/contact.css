@@ -1,0 +1,122 @@
+@charset "utf-8";
+body{
+	background:#E9E9E9;
+}
+
+#formwrap {
+	width:720px;
+    margin:auto;
+	background:#FFF;
+	border:1px solid #F1F1F1;
+	-moz-border-radius:20px;
+	-moz-box-shadow: 2px 2px 5px #999;
+	-webkit-border-radius:20px;
+	-webkit-box-shadow: 2px 2px 5px #999;
+	padding:16px 10px 40px;
+}
+#wrap{
+	border-top: 1px solid #EEE;
+	width:720px;
+}
+#form .row {
+	border-bottom:1px dotted #EEE;
+	display:block;
+	line-height:38px;
+	overflow:auto;
+	padding:24px 9px;
+	width:100%;
+}
+.row .label {
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	width:180px;
+	text-align:right;
+	float:left;
+	padding-right:10px;
+	margin-right:10px;
+}
+.row .input {
+	float:left;
+	margin-right:10px;
+	width:285px;
+}
+.row .input2 {
+	float:left;
+	margin-right:10px;
+	width:466px;
+}
+.detail{
+	width:260px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	padding:7px 8px;
+	margin:0;
+	display:block;
+	border-radius:5px 5px 5px 5px;
+	background:#E9E9E9;
+	border:1px solid #CCC;
+}
+
+.mess{
+	width:450px;
+	height:280px;
+	max-width:450px;
+	overflow:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	padding: 7px 8px;
+	line-height:16px;
+	margin:0;
+	display:block;
+	border-radius:5px 5px 5px 5px;
+	background:#E9E9E9;
+	border:1px solid #CCC;
+	 
+}
+.detail:focus{
+	background-color:#FFF;
+	border:1px solid #999;
+	outline:none;
+}
+.mess:focus{
+	background-color:#FFF;
+	border:1px solid #999;
+	outline:none;
+}
+
+.row .context {
+	color:#999;
+	font-size:11px;
+	font-style:italic;
+	line-height:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:200px;
+	float:left;
+}
+input[type=submit] {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:25px;
+	margin-left:200px;
+	color:#000;
+	font-size:16px;
+	text-shadow:1px 1px 1px #999;
+	padding:10px;
+	
+}
+span.error{
+	color:#000;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-image:url(../image/x.png);
+	background-repeat:no-repeat;
+	background-position:left 6px;
+	padding-left:25px;
+}
+#formwrap h2{
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow:1px 1px 1px #CCC;
+	color:#255E67;
+	margin-left:25px;
+}
